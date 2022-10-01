@@ -1,0 +1,235 @@
+*{    font-family: "poppins", sans-serif;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    top: 0;
+    width: 100%;
+    height: 100px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000000f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+  }
+  
+  li a:hover {
+    background-color:#FF9744;
+    border-radius: 5%;
+  }
+
+  li #b {
+    display: block;
+    color: #000000e5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    margin-left: 40px;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  li #b:hover {
+    background-color:#974b0d;
+    border-radius: 5%;
+  }
+
+
+  li c {
+    display: block;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-size: large;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-left: 15px;
+    margin-top: 14px;
+    background-image: url(https://scontent.fmid3-1.fna.fbcdn.net/v/t1.6435-9/110176786_104072451407019_2514514549613850153_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yzenG2L_SY0AX-_LJIz&_nc_ht=scontent.fmid3-1.fna&oh=00_AT9adTM3nb9CGjVwTWTtvBjVwMMRUJ2MOcRiYlwrQKNYvg&oe=635E869A);
+    background-size: contain;
+  }
+
+  
+
+  li d {
+    display: block;
+    color: #000000f3;
+    text-align: center;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-size: large;
+    height: 20px;
+    width: 40px;
+    border-radius: 30%;
+    margin-top: 20px;
+    background-image: url(https://w7.pngwing.com/pngs/225/984/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping.png);
+    background-size: contain;
+    
+  }
+  
+  li d:hover{
+    background-color: #111;
+  }
+
+  #parent
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 900px;
+  }
+  
+  .squared
+  {
+    display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+  }
+
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        align-items: center;
+        justify-items: center;
+  }
+
+
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: left;
+        padding: 10px;
+    padding-left: 30px;
+  }
+  .bigone1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 400px;
+    width: 400px;
+    margin: 25px;
+    margin-bottom: 25px;
+border-radius: 10%;
+background-image: url(https://imgur.com/VNqqUOc);
+background-size: contain;
+
+}
+
+
+
+.lilone{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    background: #19649d;
+border-radius: 10%;
+background-size: contain;}
+
+
+
+
+  .gallery{
+    border-radius: 10%;
+  }
+
+  ul.ch {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  li ch {
+    float: left;
+  }
+
+  .actives
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FF9744;
+    border-style: solid;
+    border-radius: 15%;
+    color: antiquewhite;
+  }
+
+  .activex
+  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F7F8FD;
+    border-radius: 15%;
+    color:#FF9744;
+  }
+
+  black
+  {
+    color: #111;
+  }
+
+  li ch1{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.ch1:hover {
+    background-color: #111;
+  }
+
+  h3{
+    color: #FF9744;
+    font-size: medium;
+  }
+
+  h1{
+    color:#1D1D27;
+  }
+
+  p{
+    color: #1D1D27;
+    font-size: medium;
+  }
+
+  disc{
+    color:#FF9744;
+    pad: 6px;
+    background:#FCEFE6;
+    font-size: medium;
+    margin-bottom: 4px;
+  }
+
+  h4{
+    color:#ACAFB8;
+    font-size: medium;
+  }
